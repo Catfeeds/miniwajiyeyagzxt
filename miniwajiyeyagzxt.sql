@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : windows
 Source Server Version : 50553
 Source Host           : localhost:3306
-Source Database       : demo
+Source Database       : miniwajiyeyagzxt
 
 Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-08-28 18:25:27
+Date: 2017-12-29 18:06:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -223,11 +223,21 @@ CREATE TABLE `lr_attr_spec_price_store` (
   `photo_string` text COMMENT '图片组',
   `tag_id` int(11) DEFAULT NULL COMMENT '标签ID',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of lr_attr_spec_price_store
 -- ----------------------------
+INSERT INTO `lr_attr_spec_price_store` VALUES ('1', '1', null, null, '0.00', '0', '0.00', 'UploadFiles/product/20171229/1514510941758629.jpg', 'UploadFiles/product/20171229/1514510941673829.jpg', ',UploadFiles/product/20171229/1514510941177002.jpg,UploadFiles/product/20171229/1514510941258743.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('15', '2', '0', '0', '0.00', '12', '0.00', 'UploadFiles/product/20171229/1514511031547275.jpg', 'UploadFiles/product/20171229/1514511031876909.jpg', ',UploadFiles/product/20171229/1514511031726897.jpg,UploadFiles/product/20171229/1514511031219527.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('3', '3', null, null, '999.00', '45', '119.00', 'UploadFiles/product/20171229/1514511129952328.jpg', 'UploadFiles/product/20171229/1514511129638234.jpg', ',UploadFiles/product/20171229/1514511129561278.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('4', '4', null, null, '542.00', '120', '45.00', 'UploadFiles/product/20171229/1514511316651955.jpg', 'UploadFiles/product/20171229/1514511316347544.jpg', ',UploadFiles/product/20171229/1514511317260169.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('5', '5', null, null, '0.00', '12', '0.00', 'UploadFiles/product/20171229/1514511402578523.jpg', 'UploadFiles/product/20171229/1514511402486426.jpg', ',UploadFiles/product/20171229/1514511402351634.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('6', '6', null, null, '1200.00', '213', '218.00', 'UploadFiles/product/20171229/1514511490805308.jpg', 'UploadFiles/product/20171229/1514511490327069.jpg', ',UploadFiles/product/20171229/1514511490203524.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('11', '7', '0', '0', '0.00', '0', '0.00', 'UploadFiles/product/20171229/1514511563386742.jpg', 'UploadFiles/product/20171229/1514511563154535.jpg', ',UploadFiles/product/20171229/1514511563377689.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('12', '7', '0', '0', '0.00', '122', '0.00', 'UploadFiles/product/20171229/1514511563386742.jpg', 'UploadFiles/product/20171229/1514511563154535.jpg', ',UploadFiles/product/20171229/1514511563377689.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('13', '8', null, null, '0.00', '124', '0.00', 'UploadFiles/product/20171229/1514511935590575.jpg', 'UploadFiles/product/20171229/1514511935694045.jpg', ',UploadFiles/product/20171229/1514511935347069.jpg', null);
+INSERT INTO `lr_attr_spec_price_store` VALUES ('14', '9', null, null, '545.00', '24', '123.00', 'UploadFiles/product/20171229/1514512475939410.jpg', 'UploadFiles/product/20171229/1514512475207894.jpg', ',UploadFiles/product/20171229/1514512475117056.jpg', null);
 
 -- ----------------------------
 -- Table structure for `lr_attr_value`
@@ -280,12 +290,16 @@ CREATE TABLE `lr_category` (
   `bz_4` tinyint(2) NOT NULL DEFAULT '0' COMMENT '备用字段',
   `bz_5` varchar(100) DEFAULT NULL COMMENT '推荐略缩图',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lr_category
 -- ----------------------------
 INSERT INTO `lr_category` VALUES ('1', '0', '产品分类（系统分类，不要删除）', '0', '0', null, null, null, null, '0', null);
+INSERT INTO `lr_category` VALUES ('2', '1', '全部', '0', '1514510149', '', 'UploadFiles/category/20171229/1514515342990654.jpg', null, null, '0', null);
+INSERT INTO `lr_category` VALUES ('3', '2', '一手', '0', '1514510178', '', 'UploadFiles/category/20171229/1514515356212648.jpg', '0', null, '0', null);
+INSERT INTO `lr_category` VALUES ('4', '2', '二手', '0', '1514510196', '', 'UploadFiles/category/20171229/1514515363743663.jpg', null, null, '0', null);
+INSERT INTO `lr_category` VALUES ('5', '2', '配件', '0', '1514510205', '', 'UploadFiles/category/20171229/1514515375474116.jpg', null, null, '0', null);
 
 -- ----------------------------
 -- Table structure for `lr_china_city`
@@ -3628,11 +3642,14 @@ CREATE TABLE `lr_guanggao` (
   `action` varchar(255) NOT NULL COMMENT '链接值',
   `position` tinyint(2) unsigned DEFAULT '1' COMMENT '广告位置 1首页轮播',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lr_guanggao
 -- ----------------------------
+INSERT INTO `lr_guanggao` VALUES ('1', '111', 'UploadFiles/adv/20171229/1514510513198480.jpg', '1514510513', '0', 'index', '', '1');
+INSERT INTO `lr_guanggao` VALUES ('2', '222', 'UploadFiles/adv/20171229/1514510527777641.jpg', '1514510527', '0', 'index', '', '1');
+INSERT INTO `lr_guanggao` VALUES ('3', '333', 'UploadFiles/adv/20171229/1514510535784361.jpg', '1514510535', '0', 'index', '', '1');
 
 -- ----------------------------
 -- Table structure for `lr_guige`
@@ -3676,6 +3693,52 @@ CREATE TABLE `lr_hot` (
 -- ----------------------------
 -- Records of lr_hot
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lr_news`
+-- ----------------------------
+DROP TABLE IF EXISTS `lr_news`;
+CREATE TABLE `lr_news` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cid` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '新闻分类ID',
+  `name` varchar(50) NOT NULL COMMENT '新闻标题',
+  `digest` varchar(255) DEFAULT NULL COMMENT '摘要',
+  `content` text COMMENT '新闻内容',
+  `addtime` int(11) NOT NULL DEFAULT '0' COMMENT '发表时间',
+  `click` int(11) NOT NULL DEFAULT '0' COMMENT '点击量',
+  `pinglun` int(11) NOT NULL DEFAULT '0' COMMENT '评论数量',
+  `sort` int(11) NOT NULL DEFAULT '0' COMMENT '排序',
+  `photo` varchar(100) DEFAULT NULL COMMENT '简介图片',
+  `source` varchar(20) DEFAULT NULL COMMENT '来源',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+
+-- ----------------------------
+-- Records of lr_news
+-- ----------------------------
+INSERT INTO `lr_news` VALUES ('8', '0', 'DHPU-10', 'DMASS DHPU-10系列伺服液压站,是独立的液压动力装置,它按照执行机构的要求向系统提供压力油液,并控制油液的方向。', '&lt;p style=&quot;border: 0px; margin: 0px; padding: 0px; color: inherit; max-width: 100%; clear: both; min-height: 1em; font-family: 微软雅黑; font-size: 16px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;	&lt;span style=&quot;font-family: &quot; microsoft=&quot;&quot; yahei=&quot;&quot; arial=&quot;&quot; helvetica=&quot;&quot; sans-serif=&quot;&quot;&gt;DMASS DHPU-10系列伺服液压站,是独立的液压动力装置,它按照执行机构的要求&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border: 0px; margin: 0px; padding: 0px; color: inherit; max-width: 100%; clear: both; min-height: 1em; font-family: 微软雅黑; font-size: 16px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&lt;span style=&quot;font-family: &quot; microsoft=&quot;&quot; yahei=&quot;&quot; arial=&quot;&quot; helvetica=&quot;&quot; sans-serif=&quot;&quot;&gt;向系统提供&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre; color: inherit;&quot;&gt;压力油液,并控制油液的方向,压力和流量,适用于主机与液压泵站可分离的各种&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border: 0px; margin: 0px; padding: 0px; color: inherit; max-width: 100%; clear: both; min-height: 1em; font-family: 微软雅黑; font-size: 16px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;&quot;&gt;&lt;span style=&quot;white-space: pre; color: inherit;&quot;&gt;液压机械上,用户只需将&lt;/span&gt;&lt;span style=&quot;white-space: pre; color: inherit;&quot;&gt;液压站与主机上的执行机构(油缸或油马达)用油管连接,液压机械&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border: 0px; margin: 0px; padding: 0px; color: inherit; max-width: 100%; clear: both; min-height: 1em; font-family: 微软雅黑; font-size: 16px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;&quot;&gt;&lt;span style=&quot;white-space: pre; color: inherit;&quot;&gt;便可实现相应的工艺动作.DMASS伺&lt;/span&gt;&lt;span style=&quot;white-space: pre; color: inherit;&quot;&gt;服液压站可根据工艺动作的变化按需提供流量和压力,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border: 0px; margin: 0px; padding: 0px; color: inherit; max-width: 100%; clear: both; min-height: 1em; font-family: 微软雅黑; font-size: 16px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;&quot;&gt;&lt;span style=&quot;white-space: pre; color: inherit;&quot;&gt;特别适用于生产工艺有周期性变化的应用场合。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border: 0px; margin: 0px; padding: 0px; color: inherit; max-width: 100%; clear: both; min-height: 1em; font-family: 微软雅黑; font-size: 16px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&lt;span style=&quot;font-family: &quot; microsoft=&quot;&quot; yahei=&quot;&quot; arial=&quot;&quot; helvetica=&quot;&quot; sans-serif=&quot;&quot;&gt;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291357485996.jpg&quot; alt=&quot;&quot; /&gt;&amp;nbsp;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291357488553.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;', '1503137756', '0', '0', '0', 'UploadFiles/news/20171229/1514527071818547.jpg', '挖机液压改装系统平台');
+INSERT INTO `lr_news` VALUES ('9', '0', 'SETTIMA-SMT 三螺杆泵系列', 'SMT三螺杆泵系列用于低噪音、低压流体输送系统,它采用轴流式设计,仅含三个活动部件.动力转子是唯一伸出泵壳的传动部件.', '&lt;p style=&quot;margin: 0px; padding: 0px 0px 18px; font-size: 16px; color: rgb(51, 51, 51); line-height: 2; box-sizing: border-box; text-indent: 2rem; font-family: &quot; microsoft=&quot;&quot; yahei=&quot;&quot; pingfang=&quot;&quot; sc=&quot;&quot; helvetica=&quot;&quot; neue=&quot;&quot; arial=&quot;&quot; hiragino=&quot;&quot; sans=&quot;&quot; gb=&quot;&quot; stheiti=&quot;&quot; sans-serif=&quot;&quot; text-align:=&quot;&quot; center=&quot;&quot;&gt;&lt;span style=&quot;font-family: &quot; microsoft=&quot;&quot; yahei=&quot;&quot; arial=&quot;&quot; helvetica=&quot;&quot; sans-serif=&quot;&quot;&gt;SMT三螺杆泵系列用于低噪音、低压流体输送系统,它采用轴流式设计,仅含三个活动部件.动力转子是唯一伸出泵壳的传动部件.从动螺杆在旋转泵的过程中与泵体内腔形成一个完美结合的密封系统,从而SMT三螺杆泵拥有极高的工作效率.而主动螺杆与从动螺杆之间仅发生非常平滑的滚动动作,从而大大降低了泵系统工作时产生的噪音和震动.大幅降低运行噪音,提高运行效率是我们的产品得到广泛应用与认同的根本原因。&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291356467774.jpg&quot; alt=&quot;&quot; /&gt;&amp;nbsp;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291356464257.jpg&quot; alt=&quot;&quot; /&gt;&amp;nbsp;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291356461037.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;', '1503137826', '0', '0', '0', 'UploadFiles/news/20171229/1514527010965143.jpg', '挖机液压改装系统平台');
+INSERT INTO `lr_news` VALUES ('10', '0', 'SETTIMA 高压螺旋泵系列', 'SETTIMA-Continuum 高压螺旋泵及其动力系统采用了革命性低噪音Continuum油泵的设计原理,螺距和内部力平衡的国际专利. ', '&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;span style=&quot;font-family: &quot; microsoft=&quot;&quot; yahei=&quot;&quot; arial=&quot;&quot; helvetica=&quot;&quot; sans-serif=&quot;&quot;&gt;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291355371570.jpg&quot; alt=&quot;&quot; /&gt;&amp;nbsp;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291355376532.jpg&quot; alt=&quot;&quot; /&gt;&amp;nbsp;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291355386542.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;', '1505270354', '0', '0', '0', 'UploadFiles/news/20171229/1514526943254590.jpg', '挖机液压改装系统平台');
+INSERT INTO `lr_news` VALUES ('12', '0', 'DMASS DSD-95系列驱动器', '帮助机械设计师和系统集成商实现紧凑的设计以满足这些挑战. ', '&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291353326298.jpg&quot; alt=&quot;&quot; style=&quot;font-family: 微软雅黑; font-size: 18px; white-space: pre;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;	&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;DMASS DSD-95系列驱动器紧凑的尺寸设计适应现代制造更小和更灵活的机械需求。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: 微软雅黑; white-space: pre;&quot;&gt;帮助机械设计师和系统集成商实现紧凑的设计以满足这些挑战. DSD95可以达到你的应用&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑;&quot;&gt;需要高的峰值扭矩，动力响应，易于使用和灵活的集成功能。&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;	该DMASS DSD95系列驱动技术满足精密控制的要求，同时在生产过程中会对异常反&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑;&quot;&gt;应的参数进行补偿及修正。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; white-space: pre;&quot;&gt;该DMASS DSD95系列驱动技术满足精密控制的要求，同时在生&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; white-space: pre;&quot;&gt;产过程中会对异常反应的参数进行补偿及修正。&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; white-space: pre;&quot;&gt;在工业生产过程中，尤其是在有长时间连续&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;运行的工业生产过程中，能量消耗是非常大的，DMASS DSD-95可以达到最严格的要求，节&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;约能源，给用户带来好处。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;', '1513751387', '0', '0', '0', 'UploadFiles/news/20171229/1514526827597980.jpg', '挖机液压改装系统平台');
+
+-- ----------------------------
+-- Table structure for `lr_news_cat`
+-- ----------------------------
+DROP TABLE IF EXISTS `lr_news_cat`;
+CREATE TABLE `lr_news_cat` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '新闻分类表',
+  `name` varchar(50) DEFAULT NULL COMMENT '分类名称',
+  `addtime` int(11) DEFAULT NULL COMMENT '添加时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of lr_news_cat
+-- ----------------------------
+INSERT INTO `lr_news_cat` VALUES ('6', '今日热点', '1503137453');
+INSERT INTO `lr_news_cat` VALUES ('7', '行业动态', '1503137465');
+INSERT INTO `lr_news_cat` VALUES ('8', '市场行情', '1503137472');
+INSERT INTO `lr_news_cat` VALUES ('9', '价格中心', '1503137479');
 
 -- ----------------------------
 -- Table structure for `lr_order`
@@ -3793,11 +3856,20 @@ CREATE TABLE `lr_product` (
   `pro_type` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '产品类型 1普通 2抢购产品',
   `param` text COMMENT '参数',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lr_product
 -- ----------------------------
+INSERT INTO `lr_product` VALUES ('1', '0', '0', '液压系统1', '液压系统1很好，很不错', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514510941758629.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514510917.jpg\" title=\"201712291514510917.jpg\" alt=\"u=503281888,1182495748&amp;fm=27&amp;gp=0.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514510931.jpg\" style=\"\" title=\"201712291514510931.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514510931.jpg\" style=\"\" title=\"201712291514510931.jpg\"/></p><p><br/></p>', '1514510941', '1514510941', '0', '2', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('2', '0', '0', '液压系统2', '我是液压系统2', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511031547275.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512571.jpg\" style=\"\" title=\"201712291514512571.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512571.jpg\" style=\"\" title=\"201712291514512571.jpg\"/></p><p><br/></p>', '1514511031', '1514512575', '0', '1', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('3', '0', '0', '液压系统3', '很好的一款液压系统', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511129952328.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p></p><p></p><p></p><p><br/></p>', '1514511129', '1514511129', '0', '0', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('4', '0', '0', '液压系统4', '性能高，性价比更高', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511316651955.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511303.jpg\" style=\"\" title=\"201712291514511303.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511303.jpg\" style=\"\" title=\"201712291514511303.jpg\"/></p><p><br/></p>', '1514511317', '1514511316', '0', '0', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('5', '0', '0', '液压系统5', '耐用，漂亮', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511402578523.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511390.jpg\" title=\"201712291514511390.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511399.jpg\" title=\"201712291514511399.jpg\" alt=\"u=1443289952,150447871&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511402', '1514511402', '0', '1', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('6', '0', '0', '液压系统6', '用过的人都说好', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511490805308.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511462.jpg\" title=\"201712291514511462.jpg\" alt=\"u=1443289952,150447871&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511464.jpg\" title=\"201712291514511464.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><br/></p>', '1514511490', '1514511490', '0', '1', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('7', '0', '0', '液压系统7', '几十年都不会坏', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511563386742.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511558.jpg\" title=\"201712291514511558.jpg\" alt=\"u=957180181,442180492&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511561.jpg\" title=\"201712291514511561.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511563', '1514511643', '0', '0', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('8', '0', '0', '配件1', '我是很好的配件', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511935590575.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511932.jpg\" title=\"201712291514511932.jpg\" alt=\"u=957180181,442180492&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511935', '1514511935', '0', '2', '0', '0', '1', '0', '0', null, '5', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('9', '0', '0', '配件2', '必不可少的元件', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514512475939410.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512470.jpg\" title=\"201712291514512470.jpg\" alt=\"u=503281888,1182495748&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512473.jpg\" title=\"201712291514512473.jpg\" alt=\"u=1351434446,1703108743&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514512475', '1514512475', '0', '0', '0', '0', '1', '0', '0', null, '5', null, '1', '0', '0', '0', '1', '');
 
 -- ----------------------------
 -- Table structure for `lr_product_dp`
@@ -3859,7 +3931,7 @@ CREATE TABLE `lr_program` (
 -- ----------------------------
 -- Records of lr_program
 -- ----------------------------
-INSERT INTO `lr_program` VALUES ('1', '鳄鱼皮具', '鳄鱼皮具', '', 'Copyright © 2017', 'weixin', '0200202002', '1497662576', '1', '0.00');
+INSERT INTO `lr_program` VALUES ('1', '挖机液压改装系统', '挖机液压改装系统', '', 'Copyright © 2017', 'weixin', '0200202002', '1514509494', '1', '0.00');
 
 -- ----------------------------
 -- Table structure for `lr_search_record`
@@ -3970,11 +4042,12 @@ CREATE TABLE `lr_shopping_char` (
   `type` tinyint(2) DEFAULT '2' COMMENT '0是热卖，1是团购，2是普通商品',
   `pro_id` int(11) NOT NULL COMMENT '商品ID',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lr_shopping_char
 -- ----------------------------
+INSERT INTO `lr_shopping_char` VALUES ('1', '13', '0.00', '1', '', '1514516953', '3', '0', '0', '2', '8');
 
 -- ----------------------------
 -- Table structure for `lr_spec`
@@ -4006,6 +4079,33 @@ CREATE TABLE `lr_spec_value` (
 -- ----------------------------
 -- Records of lr_spec_value
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for `lr_supply`
+-- ----------------------------
+DROP TABLE IF EXISTS `lr_supply`;
+CREATE TABLE `lr_supply` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '供求发布表',
+  `uid` int(11) NOT NULL DEFAULT '0' COMMENT '发布人id',
+  `name` varchar(255) DEFAULT NULL COMMENT '联系人',
+  `content` varchar(255) NOT NULL COMMENT '供求内容',
+  `phone` char(15) DEFAULT NULL COMMENT '联系电话',
+  `state` tinyint(2) NOT NULL DEFAULT '0' COMMENT '状态 0:求购中，1已被接单，2已取消 3 达成合作',
+  `rec_id` int(11) NOT NULL DEFAULT '0' COMMENT '接单人ID',
+  `rec_time` int(11) DEFAULT '0' COMMENT '接单时间',
+  `type` tinyint(2) unsigned DEFAULT NULL COMMENT '类型 1供应 2求购',
+  `addtime` int(11) DEFAULT '0' COMMENT '添加时间',
+  `photo` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of lr_supply
+-- ----------------------------
+INSERT INTO `lr_supply` VALUES ('1', '0', null, 'DIN ISO1219-2标准定义了元件的编号组成，其包括下面四个部分：设备编号、回路编号、元件标识符和元件编号。', '18854102145', '0', '0', '0', '2', '1513746874', 'UploadFiles/supply/20171229/1514519828494936.jpg');
+INSERT INTO `lr_supply` VALUES ('2', '0', null, '液压动力部分采用回路图方式表示，以表明不同功能元件之间的相互关系。', '15012451204', '0', '0', '0', '2', '1513748831', 'UploadFiles/supply/20171229/1514519805554599.jpg');
+INSERT INTO `lr_supply` VALUES ('3', '0', null, '执行元件(如液压缸和液压马达)的作用是将液体的压力能转换为机械能，驱动负载作直线往复运动或回转运动。', '18854102145', '0', '0', '0', '1', '1513748906', 'UploadFiles/supply/20171229/1514519780588999.jpg');
+INSERT INTO `lr_supply` VALUES ('4', '0', null, '液压传动系统以传递动力和运动为主要功能。', '18854102145', '0', '0', '0', '1', '1513749101', 'UploadFiles/supply/20171229/1514519757517915.jpg');
 
 -- ----------------------------
 -- Table structure for `lr_tag`

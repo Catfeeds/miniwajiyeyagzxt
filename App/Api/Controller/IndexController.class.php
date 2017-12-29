@@ -113,7 +113,11 @@ class IndexController extends PublicController {
             $news[$k]['addtime'] = date('Y-m-d',$v['addtime']);
         }
 
-    	echo json_encode(array('ggtop'=>$ggtop,'list1'=>$list1,'list2'=>$list2,'list3'=>$list3,'renqi'=>$renqi,'sale'=>$sale,'buy'=>$buy,'news'=>$news));
+        $cname1 = M('category')->where('id=3')->getField('name');
+        $cname2 = M('category')->where('id=4')->getField('name');
+        $cname3 = M('category')->where('id=5')->getField('name');
+
+    	echo json_encode(array('ggtop'=>$ggtop,'list1'=>$list1,'list2'=>$list2,'list3'=>$list3,'renqi'=>$renqi,'sale'=>$sale,'buy'=>$buy,'news'=>$news,'cname1'=>$cname1,'cname2'=>$cname2,'cname3'=>$cname3));
     	exit();
     }
     /**
