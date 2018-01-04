@@ -107,6 +107,18 @@ class IndexController extends PublicController {
             $sale[$k]['addtime'] = date('Y-m-d',$v['addtime']);
         }
 
+        $gong = M('supply')->where('state=0 AND type=1')->order('addtime desc')->limit(3)->select();
+        foreach ($gong as $k => $v) {
+            $gong[$k]['photo'] = __DATAURL__.$v['photo'];
+            $gong[$k]['addtime'] = date('Y-m-d',$v['addtime']);
+        }
+
+        $qiu = M('supply')->where('state=0 AND type=2')->order('addtime desc')->limit(3)->select();
+        foreach ($qiu as $k => $v) {
+            $qiu[$k]['photo'] = __DATAURL__.$v['photo'];
+            $qiu[$k]['addtime'] = date('Y-m-d',$v['addtime']);
+        }
+
         $news = M('news')->order('sort desc,id desc')->select();
         foreach($news as $k => $v){
             $news[$k]['photo'] = __DATAURL__.$v['photo'];
@@ -117,7 +129,7 @@ class IndexController extends PublicController {
         $cname2 = M('category')->where('id=4')->getField('name');
         $cname3 = M('category')->where('id=5')->getField('name');
 
-    	echo json_encode(array('ggtop'=>$ggtop,'list1'=>$list1,'list2'=>$list2,'list3'=>$list3,'renqi'=>$renqi,'sale'=>$sale,'buy'=>$buy,'news'=>$news,'cname1'=>$cname1,'cname2'=>$cname2,'cname3'=>$cname3));
+    	echo json_encode(array('ggtop'=>$ggtop,'list1'=>$list1,'list2'=>$list2,'list3'=>$list3,'renqi'=>$renqi,'sale'=>$sale,'buy'=>$buy,'news'=>$news,'cname1'=>$cname1,'cname2'=>$cname2,'cname3'=>$cname3,'gong'=>$gong,'qiu'=>$qiu));
     	exit();
     }
     /**
@@ -134,6 +146,40 @@ class IndexController extends PublicController {
         }
 
         echo json_encode(array('prolist'=>$pro_list));
+        exit();
+    }
+
+    //***************************
+    //  首页供求 上一页
+    //***************************
+    public function getpage(){
+        $page = intval($_REQUEST['page']);
+        if (!$page) {
+           $page=2;
+        }
+        $limit = intval($page*3)-3;
+
+        $condition = array();
+        $condition['state'] = 0;
+        $ptype = intval($_REQUEST['ptype']);
+        // dump($ptype);exit();
+        if ($ptype==1) {
+            $condition['type'] = 1;
+        }else{
+            $condition['type'] = 2;
+        }
+
+        //======================
+        //首页 供应内容
+        //======================
+        $supply = M('supply');
+        $list = $supply->where($condition)->order('addtime desc')->limit($limit.',3')->select();
+        foreach ($list as $k => $v) {
+           $list[$k]['photo'] = __DATAURL__.$v['photo'];
+           $list[$k]['addtime'] = date('Y-m-d',$v['addtime']);
+        }
+
+        echo json_encode(array('list'=>$list,'ptype'=>$ptype));
         exit();
     }
 
