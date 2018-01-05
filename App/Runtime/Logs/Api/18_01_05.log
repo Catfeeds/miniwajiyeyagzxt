@@ -950,3 +950,283 @@ NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\A
 NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
 NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
 
+[ 2018-01-05T09:25:50+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:25:50+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/User/userinfo?uid=3
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:25:53+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:28:34+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Login/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:28:34+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Login/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:28:34+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:30:44+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/User/suplyDetail
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:30:52+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:31:05+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/User/suplyDetail
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:31:07+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:31:11+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/User/suplyDetail
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:31:13+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:41+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Login/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:41+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Login/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:42+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:48+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:55+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/User/suplyDetail
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:56+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:32:58+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/User/suplyDetail
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+
+[ 2018-01-05T09:33:00+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 58 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 62 行.
+NOTIC: [8] Undefined index: key F:\phpStudy\WWW\miniwajiyeyagzxt\App\Api\Conf\config.php 第 66 行.
+

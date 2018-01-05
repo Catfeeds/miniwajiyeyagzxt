@@ -309,3 +309,60 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
 
+[ 2018-01-05T09:29:30+08:00 ] ::1 /miniwajiyeyagzxt/index.php/Ht/Product/add.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+NOTIC: [8] Undefined index: id F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 88 行.
+NOTIC: [8] Undefined index: page F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 89 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 90 行.
+NOTIC: [8] Undefined index: type F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 91 行.
+NOTIC: [8] Undefined index: submit F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `lr_category` WHERE ( tid=1 )  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'cid' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 317 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 317 行.
+SQL: SELECT `tid` FROM `lr_category` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0043s ]
+SQL: SELECT `cid` FROM `lr_product` WHERE ( id="0" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid` FROM `lr_category` WHERE ( id="" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`name` FROM `lr_brand` WHERE ( 1=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_attribute` [ RunTime:0.0654s ]
+SQL: SELECT * FROM `lr_attribute`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lr_spec` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `lr_spec`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lr_tag` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `lr_tag`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: shop_id F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 384 行.
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\miniwajiyeyagzxt\App\Ht\Controller\ProductController.class.php 第 391 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 41 行.
+NOTIC: [8] Undefined index: intro F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 47 行.
+NOTIC: [8] Undefined index: name F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 53 行.
+NOTIC: [8] Undefined index: shop_id F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 54 行.
+NOTIC: [8] Undefined variable: catetwo F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 67 行.
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 156 行.
+NOTIC: [8] Undefined offset: 0 F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 172 行.
+NOTIC: [8] Undefined variable: img_str F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 189 行.
+NOTIC: [8] Undefined index: content F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 215 行.
+NOTIC: [8] Undefined index: param F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 222 行.
+NOTIC: [8] Undefined index: sort F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 229 行.
+NOTIC: [8] Undefined index: renqi F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 235 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\WWW\miniwajiyeyagzxt\App\Runtime\Cache\Ht\04b33691f63b9c13a9ceae31ee771556.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+

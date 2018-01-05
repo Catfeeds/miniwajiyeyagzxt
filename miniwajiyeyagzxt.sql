@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-12-29 18:06:42
+Date: 2018-01-05 09:56:58
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -33,7 +33,7 @@ CREATE TABLE `lr_address` (
   `is_default` tinyint(2) NOT NULL DEFAULT '0' COMMENT '是否默认地址 1默认',
   PRIMARY KEY (`id`),
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户收货地址表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户收货地址表';
 
 -- ----------------------------
 -- Records of lr_address
@@ -3813,7 +3813,7 @@ CREATE TABLE `lr_post` (
   `price_max` decimal(11,0) NOT NULL DEFAULT '0' COMMENT '满多少包邮',
   `pid` int(11) NOT NULL DEFAULT '0' COMMENT '商品ID',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lr_post
@@ -3865,8 +3865,8 @@ INSERT INTO `lr_product` VALUES ('1', '0', '0', '液压系统1', '液压系统1�
 INSERT INTO `lr_product` VALUES ('2', '0', '0', '液压系统2', '我是液压系统2', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511031547275.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511026.jpg\" style=\"\" title=\"201712291514511026.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512571.jpg\" style=\"\" title=\"201712291514512571.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512571.jpg\" style=\"\" title=\"201712291514512571.jpg\"/></p><p><br/></p>', '1514511031', '1514512575', '0', '1', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
 INSERT INTO `lr_product` VALUES ('3', '0', '0', '液压系统3', '很好的一款液压系统', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511129952328.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511115.jpg\" style=\"\" title=\"201712291514511115.jpg\"/></p><p></p><p></p><p></p><p><br/></p>', '1514511129', '1514511129', '0', '0', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
 INSERT INTO `lr_product` VALUES ('4', '0', '0', '液压系统4', '性能高，性价比更高', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511316651955.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511303.jpg\" style=\"\" title=\"201712291514511303.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511303.jpg\" style=\"\" title=\"201712291514511303.jpg\"/></p><p><br/></p>', '1514511317', '1514511316', '0', '0', '0', '0', '1', '0', '0', null, '3', null, '1', '0', '0', '0', '1', '');
-INSERT INTO `lr_product` VALUES ('5', '0', '0', '液压系统5', '耐用，漂亮', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511402578523.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511390.jpg\" title=\"201712291514511390.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511399.jpg\" title=\"201712291514511399.jpg\" alt=\"u=1443289952,150447871&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511402', '1514511402', '0', '1', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
-INSERT INTO `lr_product` VALUES ('6', '0', '0', '液压系统6', '用过的人都说好', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511490805308.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511462.jpg\" title=\"201712291514511462.jpg\" alt=\"u=1443289952,150447871&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511464.jpg\" title=\"201712291514511464.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><br/></p>', '1514511490', '1514511490', '0', '1', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('5', '0', '0', '液压系统5', '耐用，漂亮', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511402578523.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511390.jpg\" title=\"201712291514511390.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511399.jpg\" title=\"201712291514511399.jpg\" alt=\"u=1443289952,150447871&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511402', '1514511402', '0', '2', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
+INSERT INTO `lr_product` VALUES ('6', '0', '0', '液压系统6', '用过的人都说好', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511490805308.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511462.jpg\" title=\"201712291514511462.jpg\" alt=\"u=1443289952,150447871&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511464.jpg\" title=\"201712291514511464.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511481.jpg\" style=\"\" title=\"201712291514511481.jpg\"/></p><p><br/></p>', '1514511490', '1514511490', '0', '2', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
 INSERT INTO `lr_product` VALUES ('7', '0', '0', '液压系统7', '几十年都不会坏', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511563386742.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511558.jpg\" title=\"201712291514511558.jpg\" alt=\"u=957180181,442180492&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511561.jpg\" title=\"201712291514511561.jpg\" alt=\"u=1489960167,1578334024&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511563', '1514511643', '0', '0', '0', '0', '1', '0', '0', null, '4', null, '1', '0', '0', '0', '1', '');
 INSERT INTO `lr_product` VALUES ('8', '0', '0', '配件1', '我是很好的配件', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514511935590575.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514511932.jpg\" title=\"201712291514511932.jpg\" alt=\"u=957180181,442180492&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514511935', '1514511935', '0', '2', '0', '0', '1', '0', '0', null, '5', null, '1', '0', '0', '0', '1', '');
 INSERT INTO `lr_product` VALUES ('9', '0', '0', '配件2', '必不可少的元件', null, '0.00', '0.00', '0', 'UploadFiles/product/20171229/1514512475939410.jpg', null, null, '<p><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512470.jpg\" title=\"201712291514512470.jpg\" alt=\"u=503281888,1182495748&amp;fm=27&amp;gp=0.jpg\"/><img src=\"/miniwajiyeyagzxt/Data/UploadFiles/Uploads/day_171229/201712291514512473.jpg\" title=\"201712291514512473.jpg\" alt=\"u=1351434446,1703108743&amp;fm=27&amp;gp=0.jpg\"/></p>', '1514512475', '1514512475', '0', '0', '0', '0', '1', '0', '0', null, '5', null, '1', '0', '0', '0', '1', '');
@@ -4095,9 +4095,9 @@ CREATE TABLE `lr_supply` (
   `rec_time` int(11) DEFAULT '0' COMMENT '接单时间',
   `type` tinyint(2) unsigned DEFAULT NULL COMMENT '类型 1供应 2求购',
   `addtime` int(11) DEFAULT '0' COMMENT '添加时间',
-  `photo` varchar(255) DEFAULT NULL,
+  `photo` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of lr_supply
