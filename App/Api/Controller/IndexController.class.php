@@ -109,13 +109,15 @@ class IndexController extends PublicController {
 
         $gong = M('supply')->where('state=0 AND type=1')->order('addtime desc')->limit(3)->select();
         foreach ($gong as $k => $v) {
-            $gong[$k]['photo'] = __DATAURL__.$v['photo'];
+            $temp = explode(',',$v['photo']);
+            $gong[$k]['photo'] = __DATAURL__.$temp[0];
             $gong[$k]['addtime'] = date('Y-m-d',$v['addtime']);
         }
 
         $qiu = M('supply')->where('state=0 AND type=2')->order('addtime desc')->limit(3)->select();
         foreach ($qiu as $k => $v) {
-            $qiu[$k]['photo'] = __DATAURL__.$v['photo'];
+            $temp = explode(',',$v['photo']);
+            $qiu[$k]['photo'] = __DATAURL__.$temp[0];
             $qiu[$k]['addtime'] = date('Y-m-d',$v['addtime']);
         }
 
@@ -175,7 +177,8 @@ class IndexController extends PublicController {
         $supply = M('supply');
         $list = $supply->where($condition)->order('addtime desc')->limit($limit.',3')->select();
         foreach ($list as $k => $v) {
-           $list[$k]['photo'] = __DATAURL__.$v['photo'];
+           $temp = explode(',',$v['photo']);
+           $list[$k]['photo'] = __DATAURL__.$temp[0];
            $list[$k]['addtime'] = date('Y-m-d',$v['addtime']);
         }
 

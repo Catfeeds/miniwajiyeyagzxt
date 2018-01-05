@@ -575,4 +575,116 @@ class UserController extends PublicController {
 
 		echo json_encode(array("status"=>1,"err"=>$list));
 	}
+
+
+	/*
+	*
+	* 图片上传的公共方法
+	*  $file 文件数据流 $exts 文件类型 $path 子目录名称
+	*/
+	public function upload_images($file,$exts,$path){
+		$upload = new \Think\Upload();// 实例化上传类
+		$upload->maxSize   =  2097152 ;// 设置附件上传大小2M
+		$upload->exts      =  $exts;// 设置附件上传类型
+		$upload->rootPath  =  './Data/UploadFiles/'; // 设置附件上传根目录
+		$upload->savePath  =  ''; // 设置附件上传（子）目录
+		$upload->saveName = time().mt_rand(100000,999999); //文件名称创建时间戳+随机数
+		$upload->autoSub  = true; //自动使用子目录保存上传文件 默认为true
+		$upload->subName  = $path; //子目录创建方式，采用数组或者字符串方式定义
+		// 上传文件 
+		$info = $upload->uploadOne($file);
+		if(!$info) {// 上传错误提示错误信息
+		    return $upload->getError();
+		}else{// 上传成功 获取上传文件信息
+			//return 'UploadFiles/'.$file['savepath'].$file['savename'];
+			return $info;
+		}
+	}
+
+	//***************************
+	//  供求 上传图片
+	//***************************
+	public function uploadimg(){
+		// dump($_REQUEST['uid']);
+		$info = $this->upload_images($_FILES['data'],array('jpg','png','jpeg'),"supplyImg/".date(Ymd));
+		if(is_array($info)) {// 上传错误提示错误信息
+			$url = 'UploadFiles/'.$info['savepath'].$info['savename'];
+			if ($_REQUEST['imgurl']) {
+				$img_url = "Data/".$_REQUEST['imgurl'];
+				if(file_exists($img_url)) {
+					@unlink($img_url);
+				}
+			}
+			echo $url;
+			exit();
+		}else{
+			echo json_encode(array('status'=>0,'err'=>$info));
+			exit();
+		}
+	}
+
+	//***************************
+	//  用户 发布供求
+	//***************************
+	public function supply(){
+		$uid = intval($_REQUEST['uid']);
+		$dtype = intval($_REQUEST['dtype']);
+		if (!$uid || !$dtype) {
+			echo json_encode(array('status'=>0,'err'=>'参数错误.'));
+			exit();
+		}
+
+		$content = trim($_POST['content']);
+		if (!$content) {
+			echo json_encode(array('status'=>0,'err'=>'请输入供求内容.'));
+			exit();
+		}
+
+		$phone = $_REQUEST['phone'];
+
+		$userinfo = M('user')->where('del=0 AND id='.intval($uid))->find();
+		if (!$userinfo) {
+			echo json_encode(array('status'=>0,'err'=>'用户信息异常.'));
+			exit();
+		}
+
+		$add = array();
+		$add['uid'] = $uid;
+		$add['content'] = $content;
+		$add['phone'] = $phone;
+		$add['type'] = $dtype;
+		$add['photo'] = trim($_REQUEST['photo_x'],',');
+		$add['addtime'] = time();
+		$res = M('supply')->add($add);
+		if ($res) {
+			echo json_encode(array('status'=>1));
+			exit();
+		}else{
+			echo json_encode(array('status'=>0,'err'=>'发布失败！'));
+			exit();
+		}
+	}
+
+	public function suplyDetail(){
+		$rid = intval($_REQUEST['rid']);
+		if (!$rid) {
+			echo json_encode(array('status'=>0,'err'=>'信息异常！'));
+			exit();
+		}
+		$info = M('supply')->where('id='.intval($rid))->find();
+		$info['addtime'] = date('Y-m-d',$info['addtime']);
+		if($info['photo']){
+			$photo = array();
+			$temp = explode(',',trim($info['photo']));
+			foreach($temp as $k => $v){
+				$temp2 = __DATAURL__.$v;
+				array_push($photo,$temp2);
+			}
+		}else{
+			$photo = array();
+		}
+		echo json_encode(array('status'=>1,'info'=>$info,'photo'=>$photo));
+		exit();
+
+	}
 }

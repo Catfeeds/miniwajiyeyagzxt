@@ -34,7 +34,7 @@
             <td><?php echo ($vo["addtime"]); ?></td>
            <!--  <td><?php if($vo["state"] == 1): ?>已接单<?php elseif($vo["state"] == 2): ?>已取消<?php else: ?>供求中<?php endif; ?></td> -->
             <td>
-              <a href="<?php echo U('update');?>?id=<?php echo ($vo["id"]); ?>">修改</a> | 
+          <!--     <a href="<?php echo U('update');?>?id=<?php echo ($vo["id"]); ?>">修改</a> |  -->
               <a onclick="del_id_url2(<?php echo ($vo["id"]); ?>)">删除</td>
           </tr><?php endforeach; endif; else: echo "" ;endif; ?>  
          <tr>

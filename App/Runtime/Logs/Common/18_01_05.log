@@ -1,0 +1,14 @@
+[ 2018-01-05T09:04:23+08:00 ] ::1 /miniwajiyeyagzxt/Data/UploadFiles/supplyImg/20180105/1515114262393590.jpg,UploadFiles/supplyImg/20180105/1515114262783782.png,UploadFiles/supplyImg/20180105/1515114262847238.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Data
+
+[ 2018-01-05T09:06:44+08:00 ] ::1 /miniwajiyeyagzxt/Data/UploadFiles/supplyImg/20180105/1515114262393590.jpg,UploadFiles/supplyImg/20180105/1515114262783782.png,UploadFiles/supplyImg/20180105/1515114262847238.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' F:\phpStudy\WWW\miniwajiyeyagzxt\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Data
+

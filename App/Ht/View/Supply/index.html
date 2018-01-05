@@ -35,7 +35,7 @@
             <td>{$vo.addtime}</td>
            <!--  <td><if condition="$vo.state eq 1">已接单<elseif condition="$vo.state eq 2" />已取消<else />供求中</if></td> -->
             <td>
-              <a href="{:U('update')}?id={$vo.id}">修改</a> | 
+          <!--     <a href="{:U('update')}?id={$vo.id}">修改</a> |  -->
               <a onclick="del_id_url2({$vo.id})">删除</td>
           </tr>
           </volist>  
