@@ -583,6 +583,7 @@ class ProductController extends PublicController {
 	    $prodetail['price'] =  M('attr_spec_price_store')->where("pid=".$pro_id)->field('price')->select();
 	    $pro['store'] = M('attr_spec_price_store')->where("pid=".$pro_id)->getField('store');
 	    $prodetail['store'] = M('attr_spec_price_store')->where("pid=".$pro_id)->field('store')->select();
+	    $prodetail['cid'] = M('product')->where('id='.$pro_id)->getField('cid');
 	    //搜索属性
 	    $attr_value_id =  M('attr_spec_price_store')->where("pid=".$pro_id)->getField('attr_value_id');
 	    $attr_value_id2 = M('attr_spec_price_store')->where("pid=".$pro_id)->field('attr_value_id')->select();
@@ -653,6 +654,7 @@ class ProductController extends PublicController {
 			$prodetail2[$k]['attr_value'] = $prodetail['attr_value'][$k];
 			$prodetail2[$k]['attr'] = $prodetail['attr'];
 			$prodetail2[$k]['spec'] = $prodetail['spec'];
+			$prodetail2[$k]['cid'] = $prodetail['cid'];
 		}
 		if($shu){
 			$shu = $this->unique($shu);

@@ -124,8 +124,8 @@
           <option value="{$pro.spec_value_id}">{$pro.spec_value}</option>
         </select>
         <!-- 规格 end -->
-         原价:<input class="input-text" name="price[]" id="price" value="{$pro.price}" style="width:50px;"/>
-          优惠价:<input class="input-text" name="price_yh[]" id="price_yh" value="{$pro.price_yh}" style="width:50px;"/>
+         购买价:<input class="input-text" name="price[]" id="price" value="{$pro.price}" style="width:50px;"/>
+          租赁价:<input class="input-text" name="price_yh[]" id="price_yh" value="{$pro.price_yh}" style="width:50px;"/>
           库存:<input class="input-text" name="num[]" id="num" value="<?php echo $pro['store']==0 ? 999999 : $pro['store']; ?>"  style="width:80px;"/>
           <span class="btn btn-secondary radius" onclick="addPro();" >添加+</span>
       </div>

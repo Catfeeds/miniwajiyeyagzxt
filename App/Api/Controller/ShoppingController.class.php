@@ -127,6 +127,7 @@ class ShoppingController extends PublicController {
 	//添加购物车
 	public function add(){
 		$uid = intval($_REQUEST['uid']);
+		$btype = intval($_REQUEST['btype']);
 		if (!$uid) {
 			echo json_encode(array('status'=>0,'err'=>'系统错误.'));
 			exit();
@@ -160,9 +161,16 @@ class ShoppingController extends PublicController {
 			$data['type']=2;
 			//如果产品有属性，则存入属性设置的价格;否则存产品表的价格
 			if ($check_info['pro_buff']) {
+				
 				$data['price'] = $_POST['yh_price'];
+				
 			}else{
-				$data['price'] = M('attr_spec_price_store')->where('id="'.$_REQUEST['ppid'].'"')->getField('price_yh');
+				if($btype == 1){
+					$data['price'] = M('attr_spec_price_store')->where('id="'.$_REQUEST['ppid'].'"')->getField('price');
+				}else{
+					$data['price'] = M('attr_spec_price_store')->where('id="'.$_REQUEST['ppid'].'"')->getField('price_yh');
+				}
+				
 			}
 
 			$res=$shpp->add($data);

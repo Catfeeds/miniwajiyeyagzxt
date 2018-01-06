@@ -48,7 +48,8 @@ class IndexController extends PublicController {
              $list1[$k]['photo_x'] =  __DATAURL__.M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('photo_x');
              $tag_id = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('tag_id');
              $list1[$k]['tag'] = M('tag')->where('id="'.$tag_id.'"')->getField('name');
-             $list1[$k]['price'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price_yh');
+             $list1[$k]['price'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price');
+             $list1[$k]['price_yh'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price_yh');
              $list1[$k]['photo_d'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('photo_d');
              $list1[$k]['photo_d'] = __DATAURL__.$list1[$k]['photo_d'];
              $list1[$k]['ping'] = M('product_dp')->where('pid="'.$v['id'].'"')->count();
@@ -59,7 +60,8 @@ class IndexController extends PublicController {
              $list2[$k]['photo_x'] =  __DATAURL__.M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('photo_x');
              $tag_id = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('tag_id');
              $list2[$k]['tag'] = M('tag')->where('id="'.$tag_id.'"')->getField('name');
-             $list2[$k]['price'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price_yh');
+             $list2[$k]['price'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price');
+              $list2[$k]['price_yh'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price_yh');
              $list2[$k]['photo_d'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('photo_d');
              $list2[$k]['photo_d'] = __DATAURL__.$list2[$k]['photo_d'];
              $list2[$k]['ping'] = M('product_dp')->where('pid="'.$v['id'].'"')->count();
@@ -70,7 +72,8 @@ class IndexController extends PublicController {
              $list3[$k]['photo_x'] =  __DATAURL__.M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('photo_x');
              $tag_id = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('tag_id');
              $list3[$k]['tag'] = M('tag')->where('id="'.$tag_id.'"')->getField('name');
-             $list3[$k]['price'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price_yh');
+             $list3[$k]['price'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price');
+              $list3[$k]['price_yh'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('price_yh');
              $list3[$k]['photo_d'] = M('attr_spec_price_store')->where('pid="'.$v['id'].'"')->getField('photo_d');
              $list3[$k]['photo_d'] = __DATAURL__.$list3[$k]['photo_d'];
              $list3[$k]['ping'] = M('product_dp')->where('pid="'.$v['id'].'"')->count();
