@@ -607,6 +607,7 @@ class UserController extends PublicController {
 	public function uploadimg(){
 		// dump($_REQUEST['uid']);
 		$info = $this->upload_images($_FILES['data'],array('jpg','png','jpeg'),"supplyImg/".date(Ymd));
+		// dump($info);exit;
 		if(is_array($info)) {// 上传错误提示错误信息
 			$url = 'UploadFiles/'.$info['savepath'].$info['savename'];
 			if ($_REQUEST['imgurl']) {
@@ -635,10 +636,10 @@ class UserController extends PublicController {
 		}
 
 		$content = trim($_POST['content']);
-		if (!$content) {
-			echo json_encode(array('status'=>0,'err'=>'请输入供求内容.'));
-			exit();
-		}
+		// if (!$content) {
+		// 	echo json_encode(array('status'=>0,'err'=>'请输入供求内容.'));
+		// 	exit();
+		// }
 
 		$phone = $_REQUEST['phone'];
 
